@@ -1,0 +1,22 @@
+/* variavel  */
+:root{
+    --color-font: rgba(0, 0, 0, 1);
+    --color-darck: rgba(0, 0, 0, .6);
+    --color-primary: rgba(0, 0, 0, .4);
+    --color-secundary: rgba(0, 0, 0, .2);
+    --background: #fff;
+}
+
+/* temas */
+.pink{
+    --color-font: rgba(121, 41, 99, 1);
+
+    --color-darck: rgba(121, 41, 99, .5);
+
+    --color-primary: rgba(217, 90, 187, .5);
+
+    --color-secundary: #ec74d3;
+
+    --background: linear-gradient(0deg, rgba(127,0,150,1) 0%, rgba(176,0,182,1) 25%, rgba(246,0,255,1) 100%);;
+
+}
