@@ -10,11 +10,13 @@ let calcLocal = 0;
 botoes.addEventListener("click", (event)=>{
     const nameTag = event.path[0];
     const nameClass = nameTag.className;
+    console.log(nameClass)
     const nameId = nameTag.id;
-
     if(nameClass === "botao") {
-        valoresDisplay(nameId)
-}});
+        retirarSimbolo(nameClass)
+    }
+    valoresDisplay(nameId)
+});
 
 // enviando valores para o display
 function valoresDisplay(v){
@@ -27,12 +29,17 @@ function valoresDisplay(v){
 
         let calculoValor="";
         calculoValor = calculo.join("");
-
+        console.log(calculoValor)
         localValor.innerText=`${calculoValor}`; 
     } else {
         calculoEvento(v)
     }
 }
+
+function retirarSimbolo(b){
+    
+};
+
 // não repetir operadores
 function naoRepetir(calc){
     let index = calc.length - 1;
