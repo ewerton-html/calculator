@@ -61,7 +61,7 @@ function naoRepetir(calc){
     return(calc);
 };
 
-// funcões dos botões 
+// funções dos botões 
 function calculoEvento(evento){
     if (evento == "igual"){
         let calculoValorFinal = `${eval(calculo.join(""))}`;
@@ -73,8 +73,9 @@ function calculoEvento(evento){
         calculo.push(calculoValorFinal);
         console.log(calculo);
 
-    } else {
-        calculo = [];
-        localValor.innerText="";
+    } else if(evento == "apagar") {
+        calculo.pop()
+        let calculoValorFinal = `${calculo.join("")}`;
+        localValor.innerText= calculoValorFinal;
     }
 }    

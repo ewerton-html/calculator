@@ -1,21 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  height: 100vh;
-  width: 100vw;
-  background: var(--background);
-}
-
 .centralizar {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: 'Anton', sans-serif;
+}
+
+body {
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+  background: var(--background);
 }
 
 .simbolo{
@@ -44,18 +41,11 @@ main {
   box-shadow: -1px 2px 10px var(--color-darck);
 }
 #conteiner-top {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
   height: 20%;
 }
 
 #display{
   position: relative;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: end;
 
@@ -78,31 +68,14 @@ main {
   width: 30px;
   height: 10px;
   border-radius: 20%;
-  filter: blur(2px);
+  filter: blur(2px); 
 }
-
-/* #display::after{
-  content: '';
-  position: absolute;
-  top: 15px;
-  left: 5px;
-  background-color: rgba(255, 255, 255, 0.5);
-  width: 20px;
-  height: 15px;
-  border-radius: 20%;
-  filter: blur(2px);
-} */
 
 #display h2{
   margin-right: 10px;
 }
 
 #conteiner-bottom{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
   height: 80%;
 }
 #botoes {
@@ -124,6 +97,7 @@ main {
   transition: ease-in-out 0.1s;
   cursor: pointer;
   box-shadow:-1px -1px 1px var(--color-darck), inset -1px -1px 5px var(--color-darck);
+  user-select: none;
 }
 
 .botao:hover{
@@ -133,6 +107,12 @@ main {
 
 .botao:active{
   transform: scale(0.8);
+}
+
+#apagar{
+  transform: scaleX(-1);
+  font-weight: 900;
+  font-size: 20px;
 }
 
 footer {
