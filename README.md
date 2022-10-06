@@ -32,8 +32,7 @@ $ git clone https://github.com/ewerton-html/calculator.git
 Caso tenha alguma duvida, consulte a documentação do GitHub em [como clonar um repositório](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository).
 
 ## 📫 Contribuindo para Calculator
-<!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
-Para contribuir com <nome_do_projeto>, siga estas etapas:
+Para contribuir com Calculator, siga estas etapas:
 
 1. Bifurque este repositório.
 2. Crie um branch: `git checkout -b <nome_branch>`.
@@ -43,7 +42,7 @@ Para contribuir com <nome_do_projeto>, siga estas etapas:
 
 Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-## 🤝 Colaboradores
+## 🤝 Autores
 
 <table>
   <tr>
@@ -62,4 +61,4 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](./LICENSE) para mais detalhes.
 
-[⬆ Voltar ao topo](#Calculator)<br>
+[⬆ Voltar ao topo](#calculator)<br>
