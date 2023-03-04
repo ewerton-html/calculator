@@ -4,19 +4,22 @@
     --color-darck: rgba(0, 0, 0, .6);
     --color-primary: rgba(0, 0, 0, .4);
     --color-secundary: rgba(0, 0, 0, .2);
-    --background: #fff;
+    --background: rgb(161, 98, 202);
 }
 
 /* temas */
+.black{
+    --color-font: rgb(82, 75, 117);
+    --color-darck: rgb(36, 29, 71);
+    --color-primary: rgb(44, 32, 116);
+    --color-secundary: rgb(17, 13, 44);;
+    --background: rgb(9, 0, 61);
+}
+
 .pink{
-    --color-font: rgba(121, 41, 99, 1);
-
-    --color-darck: rgba(121, 41, 99, .5);
-
-    --color-primary: rgba(217, 90, 187, .5);
-
-    --color-secundary: #ec74d3;
-
-    --background: linear-gradient(0deg, rgba(127,0,150,1) 0%, rgba(176,0,182,1) 25%, rgba(246,0,255,1) 100%);;
-
+    --color-font: rgb(212, 137, 255);
+    --color-darck: rgb(49, 33, 58);
+    --color-primary:  rgb(67, 63, 119);
+    --color-secundary: rgb(155, 137, 255);
+    --background:  rgb(232, 194, 255);
 }

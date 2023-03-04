@@ -6,7 +6,7 @@
 ![Badge CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Badge JS](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white)
 
-<img src="" alt="Calculadora">
+<img src="./src/img/calculadora.png" alt="Calculadora">
 
 > Um site que simula uma calculadora de windows 7, feito com fins de aprender mais sobre CSS e JS.
 
